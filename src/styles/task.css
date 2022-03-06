@@ -1,0 +1,28 @@
+.tasks__container{
+    border: 1px solid black;
+    max-width: 1600px;
+}
+
+.task__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.task__tile{
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-bottom: 1px solid rgb(192, 192, 192);
+}
+
+.task__tile:nth-child(1){ 
+    width: 2rem;
+    border-right: 1px solid rgb(201, 201, 201);
+}
+
+.task__tile:nth-child(2){ flex: 1; }
+
+.task__tile:nth-child(3){ width: 14rem; }
+
+.task__tile:nth-child(4){ width: 8rem; }
+
+.task__tile:nth-child(5){ width: 8rem; }
